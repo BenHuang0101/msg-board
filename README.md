@@ -21,4 +21,4 @@ cp .env.example .env
 docker compose up --build
 ```
 
-# test
+# test dev
