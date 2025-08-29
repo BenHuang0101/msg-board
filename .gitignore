@@ -1,0 +1,39 @@
+# ===== Java / Maven / Gradle =====
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE build (通常無需追蹤)
+build/
+
+# IDE 專用設定檔
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+
+# ===== Frontend =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== Docker / DevOps =====
+.env
+.env.*
+**/.env
+**/.env.*
+
+docker-compose.override.yml
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Logs / 暫存檔 =====
+*.log
+*.tmp
+*.swp
