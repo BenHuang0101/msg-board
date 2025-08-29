@@ -32,5 +32,5 @@ public class MessageController {
     public void deleteMessage(@PathVariable Long id) {
         messageService.deleteMessageById(id);
     }
-
+    // test word
 }
