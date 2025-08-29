@@ -20,3 +20,5 @@ cp .env.example .env
 # 啟動所有服務
 docker compose up --build
 ```
+
+# test
